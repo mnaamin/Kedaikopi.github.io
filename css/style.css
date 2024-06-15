@@ -251,20 +251,20 @@ body {
   display: flex;
   margin-top: 2rem;
   background-color: #222;
-  border-radius: 1rem;
-  -webkit-border-radius: 1rem;
-  -moz-border-radius: 1rem;
-  -ms-border-radius: 1rem;
-  -o-border-radius: 1rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
 }
 .contact .row .map {
-  border-radius: 1rem;
   flex: 1 1 45rem;
   width: 100%;
-  -webkit-border-radius: 1rem;
-  -moz-border-radius: 1rem;
-  -ms-border-radius: 1rem;
-  -o-border-radius: 1rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
 }
 .contact .row form {
   flex: 1 1 45rem;
@@ -278,11 +278,11 @@ body {
   background-color: var(--bg);
   border: 1px solid #eee;
   padding-left: 2rem;
-  border-radius: 1rem;
-  -webkit-border-radius: 1rem;
-  -moz-border-radius: 1rem;
-  -ms-border-radius: 1rem;
-  -o-border-radius: 1rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
 }
 .contact .row form .input-group input {
   width: 100%;
@@ -299,6 +299,11 @@ body {
   color: #fff;
   background-color: var(--primary);
   cursor: pointer;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
 }
 
 /* footer */
@@ -316,7 +321,10 @@ footer .socials a {
   margin: 1rem;
 }
 footer .socials a:hover,
-footer .links a:hover {
+footer .links a:hover,
+.hero .conten a:hover,
+.row form button:hover,
+.menu .row a:hover {
   color: var(--bg);
 }
 footer .links {
