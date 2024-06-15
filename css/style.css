@@ -20,6 +20,7 @@ body {
   color: #fff;
   min-height: 0;
 }
+
 /* navbar */
 
 .navbar {
@@ -219,26 +220,51 @@ body {
   padding-bottom: 4rem;
 }
 .menu .row .menu-card img {
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
+  border-radius: 20%;
+  -webkit-border-radius: 20%;
+  -moz-border-radius: 20%;
+  -ms-border-radius: 20%;
+  -o-border-radius: 20%;
   width: 80%;
 }
 .menu .row .menu-card .menu-card-title {
   margin: 1.5rem auto 0.5rem;
 }
+.menu .row .menu-card a {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  font-size: 1.4rem;
+  color: #fff;
+  background-color: var(--primary);
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+}
 
 /* contact section */
+
 .contact .row {
   display: flex;
   margin-top: 2rem;
   background-color: #222;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
 }
 .contact .row .map {
+  border-radius: 1rem;
   flex: 1 1 45rem;
   width: 100%;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
 }
 .contact .row form {
   flex: 1 1 45rem;
@@ -252,6 +278,11 @@ body {
   background-color: var(--bg);
   border: 1px solid #eee;
   padding-left: 2rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
 }
 .contact .row form .input-group input {
   width: 100%;
